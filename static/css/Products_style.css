@@ -130,6 +130,19 @@ label #cancel{
     float: left;
     padding: 20px;
 } 
+
+
+.searchbox {
+  width: 500px;
+  height:240px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 body{
   background: linear-gradient(100deg,#2980b8, #50C878);
 }
+

@@ -86,6 +86,21 @@ def product(userid,id):
             return render_template('success.html',userid=userid)
 
 
+@app.route('/search', methods=['POST','GET'])
+def search():
+
+    if request.method == 'POST':
+        data=request.form
+        cur = mysql.connection.cursor()
+        resultValue = cur.execute("Select username from accounts where account_id in (select account_id from user where match(city) against(%s));",[(data['city'])])
+        if resultValue>0:
+            users=cur.fetchall()
+            return render_template('list.html',list=users)
+        else:
+            return render_template('search.html')
+    else:
+        return render_template('search.html')
+
 
 @app.route('/cart', methods=['POST','GET'])
 def cart():
