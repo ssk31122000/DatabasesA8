@@ -65,11 +65,11 @@ Delete
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Contribution(100) Assignment 6
 
-Ayush Lodha - 13
-Shardul Kulkarni - 13
-Pushan Patel - 13
-Kamlesh Sawadekar - 13
-Prathamesh Vibhute - 13
-Nikhil Murkute - 13
-Tanishque Zaware - 13
-Rohith Kumar - 9
+Ayush Lodha - 12.5
+Shardul Kulkarni - 12.5
+Pushan Patel - 12.5
+Kamlesh Sawadekar - 12.5
+Prathamesh Vibhute - 12.5
+Nikhil Murkute - 12.5
+Tanishque Zaware - 12.5
+Rohith Kumar - 12.5
